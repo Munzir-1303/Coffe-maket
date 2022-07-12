@@ -1,0 +1,138 @@
+body{
+    background: #F2F2F2;
+}
+li ,a{
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    width: 1320px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+}
+.header{
+    margin-top: 44px;
+    margin-bottom: 45px;
+}
+.header .container{
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    margin-top: -10px;
+}
+.nav__list{
+    display: flex;
+}
+.nav__item{
+    margin: 0 33px;
+}
+.nav__link{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+}
+
+.hero .container{
+    background-image: url(..//img/coffe.png);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    width: 1280px;
+    height: 450px;
+}
+.hero__div{
+    width: 445px;
+    height: 176px;
+    padding-left: 85px;
+    padding-top: 137px;
+}
+.hero__h2{
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+}
+.hero__p{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+}
+
+.about{
+    margin-top: 168px;
+}
+.about__div__flex{
+    display: flex;
+}
+.about__h2{
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333D4B;
+}
+.about__p{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+.about__div__1{
+    margin-left: 125px;
+    margin-top: 100px;
+}
+
+.center{
+    margin-top: 158px;
+}
+.center__flex{
+    display: flex;
+    background: #2C343E;
+    width: 1530px;
+    height: 488px;
+    border-radius: 15px;
+}
+.ceter__div{
+    width: 540px;
+    height: 210px;
+    padding-top: 100px;
+    padding-left: 85px;
+}
+.center__h2{ 
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+}
+.center__p{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+.center__img{
+    margin-left: 210px;
+    margin-top: -76px;
+}
