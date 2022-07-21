@@ -1,0 +1,36 @@
+.footer{
+    margin-top: 168px;
+    width: 100%;
+    height: 120px;
+    background: #2C343E;
+
+    &__list{
+        display: flex;
+    }
+
+    &__item{
+        margin-top: 47px;
+        margin-right: 103px;
+    }
+
+    &__item__1{
+        margin-top: 52px;
+        margin-right: 186px;
+    }
+
+    &__link{
+        margin: 0 32px;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.923077px;
+        text-transform: uppercase;
+        color: #83888F;
+    }
+
+    &__link__1{
+        margin: 0 10px;
+    }
+}

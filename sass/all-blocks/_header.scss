@@ -1,0 +1,35 @@
+.header{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.header .container{
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    margin-top: -10px;
+
+    &__list{
+        display: flex;
+    }
+
+    &__item{
+        margin: 0 33px;
+    }
+
+    &__link{
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.923077px;
+        text-transform: uppercase;
+        color: #83888F;
+
+        &:hover{
+            color: red;
+            text-decoration: underline;
+        }
+    }
+}

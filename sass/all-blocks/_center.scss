@@ -1,0 +1,44 @@
+.center{
+    margin-top: 158px;
+    margin-bottom: 140px;
+
+    &__flex{
+        display: flex;
+        background: #2C343E;
+        width: 1530px;
+        height: 488px;
+        border-radius: 15px;
+    }
+
+    &__div{
+        width: 540px;
+        height: 210px;
+        padding-left: 92px;
+        padding-top: 127px;
+    }
+
+    &__h2{
+        font-family: 'Fraunces 9pt';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #FEFCF7;
+    }
+
+    &__p{
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FEFCF7;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+
+    &__img{
+        margin-left: 210px;
+        margin-top: -76px;
+    }
+}
